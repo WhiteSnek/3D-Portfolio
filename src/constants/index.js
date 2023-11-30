@@ -4,25 +4,21 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
+    python,
     tailwind,
-    nodejs,
-    mongodb,
+    cpp,
     git,
     figma,
-    docker,
     meta,
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    face_detection,
+    spotify,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -50,11 +46,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Python Programmer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "AI Developer",
       icon: creator,
     },
   ];
@@ -73,32 +69,20 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Python",
+      icon: python,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "C++",
+      icon: cpp,
     },
     {
       name: "git",
@@ -107,10 +91,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -198,46 +178,38 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Face Detection",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Embark on a visual journey with our cutting-edge face detection project. Leveraging state-of-the-art computer vision algorithms, our system meticulously identifies and analyzes facial features in images or video streams. This technology opens doors to a myriad of applications, from enhancing security systems and automating photo organization to powering augmented reality experiences. Join us in revolutionizing how we interact with visual data, as we celebrate the first year of innovation and progress in the realm of face detection",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: face_detection,
+      source_code_link: "https://github.com/WhiteSnek/face_detection",
     },
     {
-      name: "Job IT",
+      name: "Spotify Clone",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Introducing our one-of-a-kind Spotify clone, where music meets seamless user experience. Dive into a world of personalized playlists, curated just for you, and explore an extensive library of tracks across genres. Our platform combines the latest in audio streaming technology with an intuitive interface, allowing users to create, share, and discover music effortlessly. Celebrate our one-year milestone with a Spotify clone that not only replicates the magic of the original but adds a touch of innovation and user-centric features, making music streaming a delightful experience for every enthusiast.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: spotify,
+      source_code_link: "https://github.com/WhiteSnek/Spotify-Clone",
     },
     {
       name: "Trip Guide",
