@@ -28,7 +28,7 @@ import tesla from "./company/tesla.png";
 import spotify from "./spotify_clone.png";
 import face_detection from "./face_detection.png";
 import gymApp from './gymApp.png';
-import todoList from './todoList.png';
+import todoList from './todolist.png';
 import recipeApp from './recipeApp.png';
 
 export {
