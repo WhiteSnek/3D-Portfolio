@@ -4,8 +4,12 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import linkedin from './linkedin.png';
+import leetcode from './leetcode.png';
 import menu from "./menu.svg";
 import close from "./close.svg";
+import resume from './resume.pdf'
+import resumeImg from './resume.png';
 
 import css from "./tech/css.png";
 import python from "./tech/python.png";
@@ -60,5 +64,9 @@ export {
   recipeApp,
   node,
   express,
-  mongodb
+  mongodb,
+  leetcode,
+  linkedin,
+  resume,
+  resumeImg
 };
