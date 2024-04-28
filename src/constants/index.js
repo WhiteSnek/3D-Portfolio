@@ -12,13 +12,19 @@ import {
     cpp,
     git,
     figma,
+    express,
+    mongodb,
+    node,
     meta,
     starbucks,
     tesla,
     shopify,
     face_detection,
     spotify,
-    tripguide,
+    recipeApp,
+    todoList,
+    gymApp
+    
   } from "../assets";
   
   export const navLinks = [
@@ -42,15 +48,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Python Programmer",
+      title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "AI Developer",
+      title: "Full Stack Developer",
       icon: creator,
     },
   ];
@@ -91,6 +97,18 @@ import {
     {
       name: "figma",
       icon: figma,
+    },
+    {
+      name: "express",
+      icon: express
+    },
+    {
+      name: "mongodb",
+      icon: mongodb
+    },
+    {
+      name: "node",
+      icon: node
     },
   ];
   
@@ -193,7 +211,7 @@ import {
     {
       name: "Spotify Clone",
       description:
-        "Introducing our one-of-a-kind Spotify clone, where music meets seamless user experience. Dive into a world of personalized playlists, curated just for you, and explore an extensive library of tracks across genres. Our platform combines the latest in audio streaming technology with an intuitive interface, allowing users to create, share, and discover music effortlessly. Celebrate our one-year milestone with a Spotify clone that not only replicates the magic of the original but adds a touch of innovation and user-centric features, making music streaming a delightful experience for every enthusiast.",
+        "Experience seamless music streaming with personalized playlists and a vast library of tracks across genres. Our platform blends cutting-edge audio technology with an intuitive interface for effortless music discovery and sharing. Celebrate our one-year milestone with a Spotify clone that replicates the original's magic while adding innovative, user-centric features for an enhanced music streaming experience.",
       tags: [
         {
           name: "html",
@@ -211,26 +229,69 @@ import {
       image: spotify,
       source_code_link: "https://github.com/WhiteSnek/Spotify-Clone",
     },
+    
     {
-      name: "Trip Guide",
+      name: "TodoList",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "TodoList is a MERN stack web app for efficient task management. Users can create, edit, and delete lists and tasks, stored securely in MongoDB. The app features a user-friendly profile section for updating details and profile photo. It demonstrates skills in frontend-backend integration, dynamic UI, and user tracking via ContextAPI, marking the start of a journey in web development mastery.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "express",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: todoList,
+      source_code_link: "https://github.com/WhiteSnek/TodoList",
+    },
+    {
+      name: "Recipe App",
+      description:
+        "Introducing our Recipe Web App: Explore a vast collection of global recipes categorized by cuisine, powered by three APIs. Easily find recipes, access detailed instructions, and enhance your cooking with curated YouTube videos. Whether you're a seasoned chef or a culinary novice, it's your ultimate companion for culinary exploration.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: recipeApp,
+      source_code_link: "https://github.com/WhiteSnek/Recipe-App",
+    },
+    {
+      name: "Gym App",
+      description:
+        "Built from the ground up, our gym website offers a comprehensive collection of exercises meticulously categorized based on target muscles. Powered by JavaScript and Material UI, with seamless API integration for real-time data updates, our platform provides users with a dynamic and user-friendly fitness experience. Whether you're a seasoned gym-goer or just starting your fitness journey, our website offers something for everyone, making it easier than ever to achieve your fitness goals",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: gymApp,
+      source_code_link: "https://github.com/WhiteSnek/GYM_APP",
     },
   ];
   

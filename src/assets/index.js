@@ -16,6 +16,9 @@ import javascript from "./tech/javascript.png";
 import cpp from "./tech/c++.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
+import express from './tech/express.png';
+import node from './tech/node.png';
+import mongodb from './tech/mongodb.svg'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -24,7 +27,9 @@ import tesla from "./company/tesla.png";
 
 import spotify from "./spotify_clone.png";
 import face_detection from "./face_detection.png";
-import tripguide from "./tripguide.png";
+import gymApp from './gymApp.png';
+import todoList from './todoList.png';
+import recipeApp from './recipeApp.png';
 
 export {
   logo,
@@ -50,5 +55,10 @@ export {
   tesla,
   spotify,
   face_detection,
-  tripguide,
+  todoList,
+  gymApp,
+  recipeApp,
+  node,
+  express,
+  mongodb
 };
