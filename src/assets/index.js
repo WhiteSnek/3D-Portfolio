@@ -22,7 +22,14 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import express from './tech/express.png';
 import node from './tech/node.png';
-import mongodb from './tech/mongodb.svg'
+import mongodb from './tech/mongodb.svg';
+import redux from './tech/redux.png';
+import golang from './tech/golang.png';
+import postman from './tech/postman.webp';
+import pandas from './tech/pandas.svg';
+import matplotlib from './tech/matplotlib.png';
+import seaborn from './tech/seaborn.png';
+import opencv from './tech/opencv.webp';
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -68,5 +75,12 @@ export {
   leetcode,
   linkedin,
   resume,
-  resumeImg
+  resumeImg,
+  redux,
+  golang,
+  postman,
+  matplotlib,
+  opencv,
+  pandas,
+  seaborn
 };

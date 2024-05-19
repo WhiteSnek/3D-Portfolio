@@ -23,7 +23,14 @@ import {
     spotify,
     recipeApp,
     todoList,
-    gymApp
+    gymApp,
+    golang,
+    redux,
+    postman,
+    pandas,
+    matplotlib,
+    seaborn,
+    opencv
     
   } from "../assets";
   
@@ -109,6 +116,34 @@ import {
     {
       name: "node",
       icon: node
+    },
+    {
+      name: "redux",
+      icon: redux
+    },
+    {
+      name: "golang",
+      icon: golang
+    },
+    {
+      name: "postman",
+      icon: postman
+    },
+    {
+      name: "pandas",
+      icon: pandas
+    },
+    {
+      name: "matplotlib",
+      icon: matplotlib
+    },
+    {
+      name: "seaborn",
+      icon: seaborn
+    },
+    {
+      name: "opencv",
+      icon: opencv
     },
   ];
   
