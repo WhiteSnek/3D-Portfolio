@@ -19,9 +19,8 @@ import {
     starbucks,
     tesla,
     shopify,
-    face_detection,
-    spotify,
-    recipeApp,
+    customDish,
+    youtubeClone,
     todoList,
     gymApp,
     golang,
@@ -30,7 +29,8 @@ import {
     pandas,
     matplotlib,
     seaborn,
-    opencv
+    opencv,
+    vastraAgaya
     
   } from "../assets";
   
@@ -231,38 +231,56 @@ import {
   
   const projects = [
     {
-      name: "Face Detection",
+      name: "Custom Dish",
       description:
-        "Embark on a visual journey with our cutting-edge face detection project. Leveraging state-of-the-art computer vision algorithms, our system meticulously identifies and analyzes facial features in images or video streams. This technology opens doors to a myriad of applications, from enhancing security systems and automating photo organization to powering augmented reality experiences. Join us in revolutionizing how we interact with visual data, as we celebrate the first year of innovation and progress in the realm of face detection",
+        "Created a food delivery application in MERN Stack where the user can customize their ordered dish by adding extra ingredients like salt,pepper,onion, etc.",
       tags: [
         {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: face_detection,
-      source_code_link: "https://github.com/WhiteSnek/face_detection",
-    },
-    {
-      name: "Spotify Clone",
-      description:
-        "Experience seamless music streaming with personalized playlists and a vast library of tracks across genres. Our platform blends cutting-edge audio technology with an intuitive interface for effortless music discovery and sharing. Celebrate our one-year milestone with a Spotify clone that replicates the original's magic while adding innovative, user-centric features for an enhanced music streaming experience.",
-      tags: [
-        {
-          name: "html",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "MongoDb",
           color: "green-text-gradient",
         },
         {
-          name: "javascript",
+          name: "Express",
           color: "pink-text-gradient",
         },
+        {
+          name: "Node",
+          color: "blue-text-gradient",
+        },
       ],
-      image: spotify,
-      source_code_link: "https://github.com/WhiteSnek/Spotify-Clone",
+      image: customDish,
+      source_code_link: "https://github.com/WhiteSnek/CustomDish",
+      url_link: "https://custom-dish-5o64.vercel.app/"
+    },
+    {
+      name: "Youtube Clone",
+      description:
+        "CONSTRUCTED A YOUTUBE CLONE USING MERN STACK AND REDUX FOR STATE MANAGEMENT. THE CLONE CONTAINS FEATURES LIKE VIDEO AND IMAGE HANDLING, USER LOGIN, PLAYLIST CREATION, LIKED VIDEOS AND MANY MORE",
+        tags: [
+          {
+            name: "React",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "MongoDb",
+            color: "green-text-gradient",
+          },
+          {
+            name: "Express",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "Node",
+            color: "blue-text-gradient",
+          },
+        ],
+      image: youtubeClone,
+      source_code_link: "https://github.com/WhiteSnek/YoutubeClone",
+      url_link: "https://youtube-clone-blond-rho.vercel.app/"
     },
     
     {
@@ -285,18 +303,19 @@ import {
       ],
       image: todoList,
       source_code_link: "https://github.com/WhiteSnek/TodoList",
+      url_link: "https://todo-list-five-lake-26.vercel.app/"
     },
     {
-      name: "Recipe App",
+      name: "Vastra Agaya",
       description:
-        "Introducing our Recipe Web App: Explore a vast collection of global recipes categorized by cuisine, powered by three APIs. Easily find recipes, access detailed instructions, and enhance your cooking with curated YouTube videos. Whether you're a seasoned chef or a culinary novice, it's your ultimate companion for culinary exploration.",
+        "DESIGNED AND BUILT A LANDING PAGE FOR A FASHION STORE WITH INTERACTIVE USER INTERFACE AND ANIMATIONS",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "api",
+          name: "GSAP",
           color: "green-text-gradient",
         },
         {
@@ -304,8 +323,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: recipeApp,
-      source_code_link: "https://github.com/WhiteSnek/Recipe-App",
+      image: vastraAgaya,
+      source_code_link: "hhttps://github.com/WhiteSnek/CodeCubicles",
+      url_link: "https://vastra-agaya.vercel.app/"
     },
     {
       name: "Gym App",
@@ -327,6 +347,7 @@ import {
       ],
       image: gymApp,
       source_code_link: "https://github.com/WhiteSnek/GYM_APP",
+      url_link: "https://gym-app-five-vert.vercel.app/"
     },
   ];
   

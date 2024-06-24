@@ -1,12 +1,12 @@
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
 import { styles } from "../styles"
-import { github } from "../assets"
+import { github,urlImg } from "../assets"
 import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link }) =>{
+const ProjectCard = ({index, name, description, tags, image, source_code_link, url_link }) =>{
   return (
     <motion.div variants={fadeIn("up","spring",index*0.5,0.75)}>
       <Tilt
@@ -25,7 +25,9 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link })
               </div>
             </div>
             <div className="mt-5">
-              <h3 className="text-white font-bold text-[24px]">{name}</h3>
+              <h3 className="text-white font-bold text-[24px] flex justify-between">{name} <div onClick={()=> window.open(url_link, "_blank")} className="bg-white w-8 h-8 rounded-full flex justify-center items-center cursor-pointer">
+                  <img src={urlImg} alt="url" className="w-1/2 h-1/2 object-contain"/>    
+                </div></h3>
               <p className="mt-2 text-secondary text-[14px]">{description}</p>
             </div>
             <div className="mt-4 flex flex-wrap gap-2">
@@ -54,7 +56,7 @@ const Works = () => {
           Personal Projects I created in my two years of experience in programming
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 grid grid-cols-3 gap-7">
         {projects.map((project,index)=>(
           <ProjectCard key={`project-${index}`} index={index} {...project} /> 
         ))}

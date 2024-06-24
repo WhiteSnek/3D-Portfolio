@@ -10,6 +10,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import resume from './resume.pdf'
 import resumeImg from './resume.png';
+import urlImg from './url.png'
 
 import css from "./tech/css.png";
 import python from "./tech/python.png";
@@ -36,11 +37,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import spotify from "./spotify_clone.png";
-import face_detection from "./face_detection.png";
 import gymApp from './gymApp.png';
 import todoList from './todolist.png';
-import recipeApp from './recipeApp.png';
+import vastraAgaya from './vastra_agaya.png'
+import youtubeClone from './youtube_clone.png'
+import customDish from './custom_dish.png'
 
 export {
   logo,
@@ -64,11 +65,11 @@ export {
   shopify,
   starbucks,
   tesla,
-  spotify,
-  face_detection,
+  youtubeClone,
+  customDish,
   todoList,
   gymApp,
-  recipeApp,
+  vastraAgaya,
   node,
   express,
   mongodb,
@@ -82,5 +83,6 @@ export {
   matplotlib,
   opencv,
   pandas,
-  seaborn
+  seaborn,
+  urlImg
 };
