@@ -31,6 +31,10 @@ import pandas from './tech/pandas.svg';
 import matplotlib from './tech/matplotlib.png';
 import seaborn from './tech/seaborn.png';
 import opencv from './tech/opencv.webp';
+import typescript from './tech/typescript.png';
+import postgres from './tech/postgres.png';
+import docker from './tech/docker.webp';
+import aws from './tech/aws.png';
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -42,6 +46,7 @@ import todoList from './todolist.png';
 import vastraAgaya from './vastra_agaya.png'
 import youtubeClone from './youtube_clone.png'
 import customDish from './custom_dish.png'
+import achievementManagement from './achievement.png'
 
 export {
   logo,
@@ -84,5 +89,10 @@ export {
   opencv,
   pandas,
   seaborn,
-  urlImg
+  urlImg,
+  typescript,
+  postgres,
+  docker,
+  aws,
+  achievementManagement
 };

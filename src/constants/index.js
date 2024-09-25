@@ -15,10 +15,6 @@ import {
     express,
     mongodb,
     node,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     customDish,
     youtubeClone,
     todoList,
@@ -30,7 +26,12 @@ import {
     matplotlib,
     seaborn,
     opencv,
-    vastraAgaya
+    vastraAgaya,
+    typescript,
+    docker,
+    postgres,
+    aws,
+    achievementManagement
     
   } from "../assets";
   
@@ -82,6 +83,10 @@ import {
       icon: javascript,
     },
     {
+      name: "Typescript",
+      icon: typescript
+    },
+    {
       name: "Python",
       icon: python,
     },
@@ -114,6 +119,10 @@ import {
       icon: mongodb
     },
     {
+      name: "postgres",
+      icon: postgres
+    },
+    {
       name: "node",
       icon: node
     },
@@ -128,6 +137,14 @@ import {
     {
       name: "postman",
       icon: postman
+    },
+    {
+      name: "docker",
+      icon: docker
+    },
+    {
+      name: "aws",
+      icon: aws
     },
     {
       name: "pandas",
@@ -149,57 +166,18 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full stack Developer trainee",
+      company_name: "Bhagwan Parshuram Institute of Technology",
+      icon: 'https://bpitindia.com/wp-content/uploads/2023/07/BPIT-logo.jpg',
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2024 - July 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed an Achievement Management Website using the MERN stack",
+        "Implemented key features like user authentication, dynamic achievement tracking, and an admin panel for managing user achievements.",
+        "Collaborated with faculty and students to gather requirements and ensure the platform met their needs.",
+        "Enhanced website performance and user experience through efficient coding practices and responsive design",
       ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
@@ -233,7 +211,7 @@ import {
     {
       name: "Custom Dish",
       description:
-        "Created a food delivery application in MERN Stack where the user can customize their ordered dish by adding extra ingredients like salt,pepper,onion, etc.",
+        "I developed a food delivery application using the MERN Stack that offers a highly customizable user experience. Users can tailor their orders by adjusting ingredients such as salt, pepper, onion, and other condiments to suit their preferences. The app features a user-friendly interface, making it easy to modify dishes in real time and review the selected ingredients before placing an order. Additionally, the system tracks ingredient preferences to enhance future orders, providing a personalized dining experience each time. The application aims to deliver flexibility and convenience, ensuring users get exactly what they want with every meal.",
       tags: [
         {
           name: "React",
@@ -257,30 +235,34 @@ import {
       url_link: "https://custom-dish-5o64.vercel.app/"
     },
     {
-      name: "Youtube Clone",
+      name: "GameTube",
       description:
-        "CONSTRUCTED A YOUTUBE CLONE USING MERN STACK AND REDUX FOR STATE MANAGEMENT. THE CLONE CONTAINS FEATURES LIKE VIDEO AND IMAGE HANDLING, USER LOGIN, PLAYLIST CREATION, LIKED VIDEOS AND MANY MORE",
+        "GameTube is a dynamic video-sharing platform designed specifically for gamers, allowing them to share gameplay experiences, tutorials, and esports highlights. Built with modern technologies like React and Go, it offers an intuitive interface for seamless navigation and content discovery. Users can upload and manage videos, join guilds to foster community collaboration, and engage with others through comments and likes. With personalized profiles and mobile compatibility, GameTube provides a vibrant space for gamers to connect, showcase their skills, and build lasting relationships in the gaming community. Join GameTube today and elevate your gaming experience!",
         tags: [
           {
             name: "React",
             color: "blue-text-gradient",
           },
           {
-            name: "MongoDb",
+            name: "PostgreSQL",
             color: "green-text-gradient",
           },
           {
-            name: "Express",
+            name: "TypeScript",
             color: "pink-text-gradient",
           },
           {
-            name: "Node",
+            name: "Go",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Docker",
             color: "blue-text-gradient",
           },
         ],
       image: youtubeClone,
-      source_code_link: "https://github.com/WhiteSnek/YoutubeClone",
-      url_link: "https://youtube-clone-blond-rho.vercel.app/"
+      source_code_link: "https://github.com/WhiteSnek/Gametube",
+      url_link: "https://gamingtube.onrender.com/"
     },
     
     {
@@ -306,26 +288,26 @@ import {
       url_link: "https://todo-list-five-lake-26.vercel.app/"
     },
     {
-      name: "Vastra Agaya",
+      name: "Achievement Management",
       description:
-        "DESIGNED AND BUILT A LANDING PAGE FOR A FASHION STORE WITH INTERACTIVE USER INTERFACE AND ANIMATIONS",
+        "I built an achievement management website using the MERN Stack, designed to help students, faculty, and institutions manage and showcase their achievements. The platform allows users to upload, categorize, and track milestones such as awards, certifications, publications, and projects. It features a role-based access system where admins can verify and approve achievements, while users can maintain personalized profiles showcasing their accomplishments. The website offers an intuitive dashboard, making it easy for users to filter achievements by type or date, and institutions can generate reports for performance evaluations.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "GSAP",
+          name: "express",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
       ],
-      image: vastraAgaya,
-      source_code_link: "hhttps://github.com/WhiteSnek/CodeCubicles",
-      url_link: "https://vastra-agaya.vercel.app/"
+      image: achievementManagement,
+      source_code_link: "https://github.com/WhiteSnek/Achievement-Management",
+      url_link: "https://achievement-management.vercel.app"
     },
     {
       name: "Gym App",
