@@ -36,7 +36,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      A dedicated Computer Science student skilled in MERN stack development, proficiently crafting scalable web applications from start to finish. Experienced in both front-end and back-end development, adept at creating responsive interfaces and efficient server architectures. Additionally, proficient in C++ for Data Structures and Algorithms, showcasing strong problem-solving skills. Excited to contribute to innovative projects while continuously expanding my tech expertise.
+      A passionate and dedicated Computer Science student specializing in full-stack development, with a strong foundation in building scalable, user-friendly web applications from concept through deployment. I excel at crafting responsive, intuitive interfaces and optimizing server architectures for performance and reliability. Alongside my full-stack expertise, I have a solid understanding of DevOps practices, including Docker, Kubernetes, NGINX, and basic AWS services, enabling smooth deployment and efficient application management. Additionally, I am proficient in C++ for Data Structures and Algorithms, showcasing strong problem-solving abilities. I’m excited to contribute to innovative projects while continuously expanding my tech knowledge in a dynamic field.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service,index) =>(

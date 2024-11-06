@@ -26,12 +26,13 @@ import {
     matplotlib,
     seaborn,
     opencv,
-    vastraAgaya,
+    ricoz,
     typescript,
     docker,
     postgres,
     aws,
-    achievementManagement
+    achievementManagement,
+    nest
     
   } from "../assets";
   
@@ -51,12 +52,9 @@ import {
   ];
   
   const services = [
+    
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
@@ -66,6 +64,10 @@ import {
     {
       title: "Full Stack Developer",
       icon: creator,
+    },
+    {
+      title: "DevOps Engineer",
+      icon: web,
     },
   ];
   
@@ -86,33 +88,31 @@ import {
       name: "Typescript",
       icon: typescript
     },
-    {
-      name: "Python",
-      icon: python,
-    },
+
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "redux",
+      icon: redux
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "C++",
-      icon: cpp,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "express",
       icon: express
+    },
+    
+    {
+      name: "node",
+      icon: node
+    },
+    {
+      name: "Nest js",
+      icon: nest,
     },
     {
       name: "mongodb",
@@ -123,16 +123,24 @@ import {
       icon: postgres
     },
     {
-      name: "node",
-      icon: node
+      name: "Python",
+      icon: python,
     },
     {
-      name: "redux",
-      icon: redux
+      name: "C++",
+      icon: cpp,
     },
     {
       name: "golang",
       icon: golang
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "figma",
+      icon: figma,
     },
     {
       name: "postman",
@@ -176,6 +184,18 @@ import {
         "Implemented key features like user authentication, dynamic achievement tracking, and an admin panel for managing user achievements.",
         "Collaborated with faculty and students to gather requirements and ensure the platform met their needs.",
         "Enhanced website performance and user experience through efficient coding practices and responsive design",
+      ],
+    },
+    {
+      title: "Nodejs Developer Intern",
+      company_name: "Ricoz",
+      icon: ricoz,
+      iconBg: "#383E56",
+      date: "October 2024 - Present",
+      points: [
+        "Developing the backend in nodejs for the company project",
+        "Used third party authentication for signin and signup",
+        "Integrated payment gateway"
       ],
     }
   ];

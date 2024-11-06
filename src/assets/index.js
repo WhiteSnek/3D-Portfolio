@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -35,11 +35,9 @@ import typescript from './tech/typescript.png';
 import postgres from './tech/postgres.png';
 import docker from './tech/docker.webp';
 import aws from './tech/aws.png';
+import nest from './tech/nestjs.png'
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import ricoz from './company/ricozLogo.png'
 
 import gymApp from './gymApp.png';
 import todoList from './todolist.png';
@@ -66,10 +64,7 @@ export {
   cpp,
   reactjs,
   tailwind,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  ricoz,
   youtubeClone,
   customDish,
   todoList,
@@ -94,5 +89,6 @@ export {
   postgres,
   docker,
   aws,
-  achievementManagement
+  achievementManagement,
+  nest
 };
