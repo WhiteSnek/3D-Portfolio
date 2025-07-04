@@ -191,11 +191,24 @@ import {
       company_name: "Ricoz",
       icon: ricoz,
       iconBg: "#383E56",
-      date: "October 2024 - Present",
+      date: "October 2024 - February 2025",
       points: [
         "Developing the backend in nodejs for the company project",
         "Used third party authentication for signin and signup",
         "Integrated payment gateway"
+      ],
+    },
+    {
+      title: "Intern",
+      company_name: "Accenture India",
+      icon: "https://logos-world.net/wp-content/uploads/2020/07/Accenture-Logo.png",
+      iconBg: "#383E56",
+      date: "May 2025 - Present",
+      points: [
+        "Automating Cloud Resources via Python SDKs",
+        "Creating Bot using Azure Bot Service",
+        "Integrating NLP and GenAI into the bot",
+        "Using Accenture Internal tools to simplify the process"
       ],
     }
   ];
